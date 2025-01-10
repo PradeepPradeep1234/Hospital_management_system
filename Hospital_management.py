@@ -6,12 +6,12 @@ import mysql.connector
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="pradeep@1234", 
-    database="hospital_management"
+    password="pradeep@1234",  # Replace with your own password
+    database="hospital_management" # Replace with your Database name
 )
 cursor = db.cursor()
 
-# Create tables if they don't exist
+
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS doctors (
     doctor_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -111,7 +111,7 @@ def view_patients():
     for row in rows:
         patient_table.insert("", tk.END, values=row)
 
-# Main Tkinter Window
+# Main Tkinter Window (User Interface)
 root = tk.Tk()
 root.title("Hospital Management System")
 root.geometry("800x600")
