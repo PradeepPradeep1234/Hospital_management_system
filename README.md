@@ -57,5 +57,5 @@ A simple GUI-based Hospital Management System built using **Python (Tkinter)** a
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/hospital-management-system.git
+git clone https://github.com/PradeepPradeep1234/Hospital_management_system.git
 cd hospital-management-system
